@@ -16,8 +16,6 @@ May 2015
 //    npm install express request body-parser flickrapi cookie-parser twilio
 
 var express = require('express'),
-    fs = require('fs'),
-    request = require('request'),
     bodyParser = require('body-parser'),
     cookieParser = require('cookie-parser'),
     app = express(),
